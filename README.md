@@ -88,5 +88,7 @@ curso machine learning dio microsoft azure
 5. Clique em "registro":
 <img width="617" alt="image" src="https://github.com/user-attachments/assets/4d776e4d-9725-4ee8-9019-5faf1908c2dc" />
 
-6. Erro: Não aparece a aba "metrics". O que houve de errado?
-![image](https://github.com/user-attachments/assets/e7626380-5cd8-41fc-89c3-f6466a2d2661)
+alterado o registro para rodar o deploy:
+<img width="417" alt="image" src="https://github.com/user-attachments/assets/5f16a9ec-211d-4560-b188-04b12e3dda4f" />
+
+
