@@ -88,7 +88,15 @@ curso machine learning dio microsoft azure
 5. Clique em "registro":
 <img width="617" alt="image" src="https://github.com/user-attachments/assets/4d776e4d-9725-4ee8-9019-5faf1908c2dc" />
 
-alterado o registro para rodar o deploy:
+Após erro no Deploy do API Rest, por causa da minha conta (startup patrocinada), tive que adicionar os seguintes "roles":
+AzureML Compute Operator
+Reader
+Owner
+Contributor
+Mais detalhes em: https://learn.microsoft.com/en-us/azure/machine-learning/how-to-assign-roles?view=azureml-api-2&tabs=team-lead
+
+Também tive que alterar o seguinte registro para rodar o deploy:
+policy insights
 <img width="417" alt="image" src="https://github.com/user-attachments/assets/5f16a9ec-211d-4560-b188-04b12e3dda4f" />
 
 
