@@ -102,19 +102,40 @@ curso machine learning dio microsoft azure
 <img width="554" alt="image" src="https://github.com/user-attachments/assets/b354b6b9-9662-497b-b27c-984152971e76" />
 
 ##3. Criando o Deploy
+1. Volte para o "overview", clique em "deploy" -> "real-time endpoint"
+<img width="670" alt="image" src="https://github.com/user-attachments/assets/38a057e7-2743-4c68-b013-228f25bf42e2" />
 
+2. Selecione a VM "Standard E4S v3" e mantenha o resto padrão. Clique em "deploy":
+<img width="308" alt="image" src="https://github.com/user-attachments/assets/47e70e62-5f5e-4e5f-a212-df2011ca7f13" />
 
+3. O Deploy será executado. Aguarde o status de "Concluído"
+<img width="568" alt="image" src="https://github.com/user-attachments/assets/94c953a3-4f18-4504-9118-254da9c5a316" />
+Neste ponto, inicialmente não consegui rodar, e tive que alterar as configurações de registro na Azure:
+Ir no portal da Azure: https://portal.azure.com/#home, fazer o login
+Na barra de pesquisa, escrever "Subscription"
+Selecionar o Subscription Name
+Vai abrir um novo menu, então selecionar "Resource providers"
+Selecionar:
+->Microsoft.Cdn
+->Microsoft.CostManagement
+->Policy Insights
+<img width="417" alt="image" src="https://github.com/user-attachments/assets/5f16a9ec-211d-4560-b188-04b12e3dda4f" />
 
-
-Após erro no Deploy do API Rest, por causa da minha conta (startup patrocinada), tive que adicionar os seguintes "roles":
-AzureML Compute Operator
-Reader
-Owner
-Contributor
+Por causa da minha conta (startup patrocinada), tive que adicionar também os seguintes "roles", por orientação dos engenheiros da Microsoft (fiz atendimento para conseguir rodar o deploy):
+-AzureML Compute Operator
+-Reader
+-Owner
+-Contributor
 Mais detalhes em: https://learn.microsoft.com/en-us/azure/machine-learning/how-to-assign-roles?view=azureml-api-2&tabs=team-lead
 
-Também tive que alterar o seguinte registro para rodar o deploy:
-policy insights
-<img width="417" alt="image" src="https://github.com/user-attachments/assets/5f16a9ec-211d-4560-b188-04b12e3dda4f" />
+4. Testar o Endpoint:
+
+
+5. Copiar o JSON:
+
+
+
+
+
 
 
