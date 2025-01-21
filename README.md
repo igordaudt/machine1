@@ -129,9 +129,39 @@ Por causa da minha conta (startup patrocinada), tive que adicionar também os se
 Mais detalhes em: https://learn.microsoft.com/en-us/azure/machine-learning/how-to-assign-roles?view=azureml-api-2&tabs=team-lead
 
 4. Testar o Endpoint:
+Vá em "Endpoints" -> "Test"
+<img width="665" alt="image" src="https://github.com/user-attachments/assets/b13ce3e2-6994-48d2-8c46-05a037b6a9ad" />
+
+5. Copiar o JSON com o resultado e clicar em "teste"
+Preencha os dados para teste conforme https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html
+<img width="327" alt="image" src="https://github.com/user-attachments/assets/c2e789e4-ac59-4602-8ea5-da8b6a651386" />
+
+   {
+  "input_data": {
+    "columns": [
+      "day",
+      "mnth",
+      "year",
+      "season",
+      "holiday",
+      "weekday",
+      "workingday",
+      "weathersit",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "index": [0],
+    "data": [[1,1,2022,2,0,1,1,2,0.3,0.3,0.3,0.3]]
+  }
+ }
 
 
-5. Copiar o JSON:
+6. Copie o resultado que aparece abaixo:
+<img width="354" alt="image" src="https://github.com/user-attachments/assets/b6c10624-73bd-4435-8d36-00a473e560c6" />
+
+
 
 
 
