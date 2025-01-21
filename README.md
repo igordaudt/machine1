@@ -71,7 +71,7 @@ curso machine learning dio microsoft azure
 <img width="539" alt="image" src="https://github.com/user-attachments/assets/8a4fdb3d-c750-4e85-8cc5-701916504de0" />
 
 
-## Parte 2 - 
+## Parte 2 - Registar Modelo
 
 1. Ir para "modelos", clicar em "registrar" e selecionar "de uma saída do trabalho":
 <img width="677" alt="image" src="https://github.com/user-attachments/assets/b056677f-f511-4918-a0f5-dbd5930fd0b7" />
@@ -87,6 +87,24 @@ curso machine learning dio microsoft azure
 
 5. Clique em "registro":
 <img width="617" alt="image" src="https://github.com/user-attachments/assets/4d776e4d-9725-4ee8-9019-5faf1908c2dc" />
+
+6. Voltar para "Jobs" para ver o resultado:
+(Até descobrir como isso funcionava, acabei criando outros jobs).
+<img width="491" alt="image" src="https://github.com/user-attachments/assets/dbc98586-2f47-46d0-bb0a-c7fc63c66cb8" />
+
+7. Clique em "registered models" à direita:
+<img width="466" alt="image" src="https://github.com/user-attachments/assets/a0051bb7-617c-46bc-b991-445db857010a" />
+
+8. Clique em "versions" e clique no job listado
+<img width="572" alt="image" src="https://github.com/user-attachments/assets/6c8fb847-7456-446b-bda0-961dbc169503" />
+
+9. Clique em "metrics" para ver o resultado do trabalho.
+<img width="554" alt="image" src="https://github.com/user-attachments/assets/b354b6b9-9662-497b-b27c-984152971e76" />
+
+##3. Criando o Deploy
+
+
+
 
 Após erro no Deploy do API Rest, por causa da minha conta (startup patrocinada), tive que adicionar os seguintes "roles":
 AzureML Compute Operator
